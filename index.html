@@ -5,19 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News Portal | Home</title>
+    <!-- sanjaya css  -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      href="https://cdn.jsdelivr.net/gh/sanjaya007/flex-library@2.0/dist/css/sanjaya.min.css"
       crossorigin="anonymous"
     />
+    <!-- font awesome  -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/sanjaya007/flex-library@master/dist/css/sanjaya.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- custom css  -->
     <link rel="stylesheet" href="./assets/css/common.css" />
     <link rel="stylesheet" href="./assets/css/home.css" />
+    <!-- jquery  -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -25,6 +35,1201 @@
     ></script>
   </head>
   <body id="portalBody" class="portal-body">
+    <div class="side-modal">
+      <!-- mobile nav  -->
+      <div class="mobile-nav blue-nav" id="linkNav">
+        <div class="nav-box">
+          <div class="title flex-css fmb-30">
+            <a href="#" class="link-text">Lahachhap</a>
+          </div>
+          <div class="link-wrapper fmb-50">
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> गृहपृष्ठ </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text">गृहपृष्ठ</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">गृहपृष्ठ</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">गृहपृष्ठ</a>
+                </div>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> राजनीति </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text">राजनीति</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">राजनीति</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">राजनीति</a>
+                </div>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> स्वास्थ्य </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text">स्वास्थ्य</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">स्वास्थ्य</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">स्वास्थ्य</a>
+                </div>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> अर्थ </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text"> अर्थ</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text"> अर्थ</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text"> अर्थ</a>
+                </div>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> समाज </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text"> समाज</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text"> समाज</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text"> समाज</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="creator-text">
+            <a href="#">Become a creator</a>
+          </div>
+          <div class="close-icon mobile-close-icon flex-css">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-nav red-nav" id="postNav">
+        <div class="nav-box">
+          <div class="title flex-css fmb-30">
+            <a href="#" class="link-text">Lahachhap</a>
+          </div>
+
+          <div class="post-text fmb-20">
+            <div class="title">
+              <p>नवीनतम पोष्ट</p>
+            </div>
+          </div>
+
+          <div class="link-wrapper">
+            <div class="link-box">
+              <div class="link flex-css-row-start">
+                <img src="./assets/images/stat_arrow_large.png" alt="arrow" />
+                <a href="#" class="link-text"> नवीनतम पोष्ट </a>
+              </div>
+              <div class="link flex-css-row-start">
+                <img src="./assets/images/stat_arrow_large.png" alt="arrow" />
+                <a href="#" class="link-text"> नवीनतम पोष्ट </a>
+              </div>
+              <div class="link flex-css-row-start">
+                <img src="./assets/images/stat_arrow_large.png" alt="arrow" />
+                <a href="#" class="link-text"> नवीनतम पोष्ट </a>
+              </div>
+              <div class="link flex-css-row-start">
+                <img src="./assets/images/stat_arrow_large.png" alt="arrow" />
+                <a href="#" class="link-text"> नवीनतम पोष्ट </a>
+              </div>
+            </div>
+          </div>
+          <div class="close-icon mobile-close-icon flex-css">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body-container" id="bodyContainer">
+      <!-- .head container  -->
+      <div class="head-container gap-container">
+        <div class="head-box middle-content flex-css-row-sb fpy-10 fpx-10">
+          <div class="logo-img">
+            <img src="./assets/images/logo_img.png" alt="logo" />
+          </div>
+          <div class="logo-text">
+            <img src="./assets/images/logo_letter.png" alt="logo" />
+          </div>
+          <div class="info-text flex-css-row">
+            <p>खोज्नुहोस</p>
+            <div class="border-line"></div>
+            <p>२१ साउन २०७९</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- nav container  -->
+      <div class="nav-container">
+        <div class="nav-box gap-container link-nav">
+          <div class="box middle-content flex-css-row-sb">
+            <div class="nav-wrapper flex-css-row-start">
+              <div class="title fmr-70">
+                <a href="#">Become a creator</a>
+              </div>
+              <div class="link-wrapper flex-css-row-start desktop-link">
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#">गृहपृष्ठ</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#">गृहपृष्ठ</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#">गृहपृष्ठ</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#">गृहपृष्ठ</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#">राजनीति</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#">राजनीति</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#">राजनीति</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#">राजनीति</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#"> स्वास्थ्य</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#"> स्वास्थ्य</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> स्वास्थ्य</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> स्वास्थ्य</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#"> अर्थ</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#"> अर्थ</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> अर्थ</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> अर्थ</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#"> समाज</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#"> समाज</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> समाज</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> समाज</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-box flex-bottom-column" data-target="linkNav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="nav-box gap-container post-nav">
+          <div class="box middle-content flex-css-row-sb">
+            <div class="nav-wrapper flex-css-row-start">
+              <div class="title fmr-20">
+                <p>नवीनतम पोष्ट</p>
+              </div>
+              <div class="list-box flex-css-row-start desktop-link">
+                <div class="list">
+                  <img src="./assets/images/stat_arrow.png" alt="arrow" />
+                  <a href="#">नवीनतम पोष्ट</a>
+                </div>
+                <div class="list">
+                  <img src="./assets/images/stat_arrow.png" alt="arrow" />
+                  <a href="#">नवीनतम पोष्ट</a>
+                </div>
+                <div class="list">
+                  <img src="./assets/images/stat_arrow.png" alt="arrow" />
+                  <a href="#">नवीनतम पोष्ट</a>
+                </div>
+                <div class="list">
+                  <img src="./assets/images/stat_arrow.png" alt="arrow" />
+                  <a href="#">नवीनतम पोष्ट</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-box flex-bottom-column" data-target="postNav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- possible container  -->
+      <div class="possible-container gap-container">
+        <div class="possible-box middle-content">
+          <div class="box">
+            <div class="btn-box flex-css">
+              <a href="#">सम्भव</a>
+            </div>
+            <div class="info-box">
+              <p>
+                गगन थापा भन्छन् - नागरिकता विधेयकमा राष्ट्रपतिले आफ्नो अधिकार
+                प्रयोग गर्नुभयो, आक्रोशित हुन जरूरी छैन
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="btn-box flex-css">
+              <a href="#">सम्भव</a>
+            </div>
+            <div class="info-box">
+              <p>
+                ओलीको आरोप- देउवाको गन्तव्य म्याडम साहेब, प्रचण्डको सुपुत्री
+                (भिडिओ)। ‘‘अहिलेका नेताको कुनै गन्तव्य छैन।
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="btn-box flex-css">
+              <a href="#">सम्भव</a>
+            </div>
+            <div class="info-box">
+              <p>
+                यसरी सम्भव थियो र छ काठमाडौंको फोहोर व्यवस्थापन - रामकुमारी
+                झाँक्री
+              </p>
+            </div>
+            <div class="img-box flex-bottom">
+              <img src="./assets/images/possible_img.png" alt="possible" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- primary news container  -->
+      <div class="primary-news-container gap-container fpb-60">
+        <div class="primary-news-box middle-content flex-top-row-start-wrap">
+          <div class="card">
+            <div class="img-box">
+              <img src="./assets/images/primary_news_img1.png" alt="news" />
+            </div>
+            <div class="info-wrapper flex-css">
+              <div class="info-box">
+                <div class="desc">
+                  <p>
+                    ओलीको आरोप- देउवाको गन्तव्य म्याडम साहेब, प्रचण्डको सुपुत्री
+                    (भिडिओ) ‘‘अहिलेका नेताको ...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-box">
+              <img src="./assets/images/primary_news_img2.png" alt="news" />
+            </div>
+            <div class="info-wrapper flex-css">
+              <div class="info-box">
+                <div class="desc">
+                  <p>
+                    ओलीको आरोप- देउवाको गन्तव्य म्याडम साहेब, प्रचण्डको सुपुत्री
+                    (भिडिओ) ‘‘अहिलेका नेताको...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-box">
+              <img src="./assets/images/primary_news_img3.png" alt="news" />
+            </div>
+            <div class="info-wrapper flex-css">
+              <div class="info-box">
+                <div class="desc">
+                  <p>
+                    प्रतिनिधिसभाका १६५ र प्रदेशसभाका ३३० सिट बाँड्न शीर्ष
+                    नेतालाई सकस, बालुवाटारको बैठकले कसरी ?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-box">
+              <img src="./assets/images/primary_news_img4.png" alt="news" />
+            </div>
+            <div class="info-wrapper flex-css">
+              <div class="info-box">
+                <div class="desc">
+                  <p>सप्तरीमा उपेन्द्र यादवविरुद्ध सीके राउत निर्वाचन लड्ने</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-box">
+              <img src="./assets/images/primary_news_img5.png" alt="news" />
+            </div>
+            <div class="info-wrapper flex-css">
+              <div class="info-box">
+                <div class="desc">
+                  <p>सप्तरीमा उपेन्द्र यादवविरुद्ध सीके राउत निर्वाचन लड्ने</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-box">
+              <img src="./assets/images/primary_news_img6.png" alt="news" />
+            </div>
+            <div class="info-wrapper flex-css">
+              <div class="info-box">
+                <div class="desc">
+                  <p>
+                    अमेरिकाद्वारा मंकिपक्स भाइरसलाई जनस्वास्थ्य आपतकाल घोषणा
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- hot news container  -->
+      <div class="hot-news-container gap-container fpb-60">
+        <div class="hot-news-box middle-content flex-top-row-start">
+          <div class="left-box">
+            <div class="box">
+              <div class="title fmb-10">
+                <h1>Hot News</h1>
+              </div>
+              <div class="list-box">
+                <div class="list flex-top-row-start">
+                  <div class="img-box">
+                    <img src="./assets/images/hot_news.png" alt="hotnews" />
+                  </div>
+                  <div class="info-box">
+                    <div class="info-text">
+                      <p>
+                        दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                        कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                      </p>
+                    </div>
+                    <div class="link-text">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list flex-top-row-start">
+                  <div class="img-box">
+                    <img src="./assets/images/hot_news.png" alt="hotnews" />
+                  </div>
+                  <div class="info-box">
+                    <div class="info-text">
+                      <p>
+                        दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                        कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                      </p>
+                    </div>
+                    <div class="link-text">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list flex-top-row-start">
+                  <div class="img-box">
+                    <img src="./assets/images/hot_news.png" alt="hotnews" />
+                  </div>
+                  <div class="info-box">
+                    <div class="info-text">
+                      <p>
+                        दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                        कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                      </p>
+                    </div>
+                    <div class="link-text">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list flex-top-row-start">
+                  <div class="img-box">
+                    <img src="./assets/images/hot_news.png" alt="hotnews" />
+                  </div>
+                  <div class="info-box">
+                    <div class="info-text">
+                      <p>
+                        दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                        कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                      </p>
+                    </div>
+                    <div class="link-text">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-box">
+            <div class="box fmt-46">
+              <div class="img-box">
+                <img src="./assets/images/hot_news_banner.png" alt="hotnews" />
+              </div>
+              <div class="info-wrapper">
+                <div class="info-box">
+                  <div class="title">
+                    <h1>
+                      कोशी नदीको जलसतह सतर्कता आसपास, यी जिल्लाका स-साना नदीमा
+                      हुन सक्छ
+                    </h1>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      काठमाडौं : कोशी नदीको जलसतह सतर्कता आसपास नै भएको बाढी
+                      पूर्वानुमान महाशाखाले जनाएको छ। आज र भोलि नदीको जलसतह केही
+                      घट्ने भए पनि सतर्कता आपासनै हुने
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- trending news container -->
+      <div class="trending-news-container gap-container fpb-60">
+        <div class="trending-news-box middle-content">
+          <div class="trending-news-head-wrapper flex-top-row-start">
+            <div class="left-box fmt-46">
+              <div class="box-wrapper flex-top-row-start-wrap">
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      src="./assets/images/trending_img1.jpg"
+                      alt="trending"
+                    />
+                  </div>
+                  <div class="info-wrapper">
+                    <div class="info-box">
+                      <div class="desc">
+                        <p>
+                          ६ नेतामध्ये को बन्ला मोदीको उत्तराधिकारी ? शाह, योगी
+                          या अन्य कोही ?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      src="./assets/images/trending_img2.jpg"
+                      alt="trending"
+                    />
+                  </div>
+                  <div class="info-wrapper">
+                    <div class="info-box">
+                      <div class="desc">
+                        <p>
+                          ६ नेतामध्ये को बन्ला मोदीको उत्तराधिकारी ? शाह, योगी
+                          या अन्य कोही ?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      src="./assets/images/trending_img3.jpg"
+                      alt="trending"
+                    />
+                  </div>
+                  <div class="info-wrapper">
+                    <div class="info-box">
+                      <div class="desc">
+                        <p>
+                          ६ नेतामध्ये को बन्ला मोदीको उत्तराधिकारी ? शाह, योगी
+                          या अन्य कोही ?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="img-box">
+                    <img
+                      src="./assets/images/trending_img4.jpg"
+                      alt="trending"
+                    />
+                  </div>
+                  <div class="info-wrapper">
+                    <div class="info-box">
+                      <div class="desc">
+                        <p>
+                          ६ नेतामध्ये को बन्ला मोदीको उत्तराधिकारी ? शाह, योगी
+                          या अन्य कोही ?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="show-more-btn flex-css fpt-40">
+                <a href="#">सब देखौनुस</a>
+              </div>
+            </div>
+            <div class="right-box">
+              <div class="box">
+                <div class="title fmb-10">
+                  <h1>Trending</h1>
+                </div>
+                <div class="list-box">
+                  <div class="list flex-top-row-start">
+                    <div class="img-box">
+                      <img src="./assets/images/hot_news.png" alt="hotnews" />
+                    </div>
+                    <div class="info-box">
+                      <div class="info-text">
+                        <p>
+                          दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                          कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                        </p>
+                      </div>
+                      <div class="link-text">
+                        <a href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list flex-top-row-start">
+                    <div class="img-box">
+                      <img src="./assets/images/hot_news.png" alt="hotnews" />
+                    </div>
+                    <div class="info-box">
+                      <div class="info-text">
+                        <p>
+                          दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                          कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                        </p>
+                      </div>
+                      <div class="link-text">
+                        <a href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list flex-top-row-start">
+                    <div class="img-box">
+                      <img src="./assets/images/hot_news.png" alt="hotnews" />
+                    </div>
+                    <div class="info-box">
+                      <div class="info-text">
+                        <p>
+                          दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                          कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                        </p>
+                      </div>
+                      <div class="link-text">
+                        <a href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="list flex-top-row-start">
+                    <div class="img-box">
+                      <img src="./assets/images/hot_news.png" alt="hotnews" />
+                    </div>
+                    <div class="info-box">
+                      <div class="info-text">
+                        <p>
+                          दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                          कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                        </p>
+                      </div>
+                      <div class="link-text">
+                        <a href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- .category news container (economic) -->
+      <div class="category-news-container gap-container fpb-60">
+        <div class="first-category-news-box middle-content">
+          <div class="category-head flex-css">
+            <h1>खेलकुद</h1>
+          </div>
+          <div class="category-wrapper head-wrapper flex-top-row-start">
+            <div class="left-box fmr-10">
+              <div class="box">
+                <div class="img-box">
+                  <img src="./assets/images/cat1.png" alt="cat" />
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-box">
+                    <div class="desc">
+                      <p>
+                        जनताका मुद्दाहरु बोकेर छिट्टै सिंहदरबारको यात्रा तय
+                        गर्ने रवि लामिछानेको दाबी
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-box flex-top-row-start-wrap">
+              <div class="box">
+                <div class="img-box">
+                  <img src="./assets/images/cat2.png" alt="cat" />
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-box">
+                    <div class="desc">
+                      <p>
+                        गठबन्धन दलहरूको तालमेल संविधानविपरीत हुने नेता रावलको
+                        दाबी
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="img-box">
+                  <img src="./assets/images/cat3.png" alt="cat" />
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-box">
+                    <div class="desc">
+                      <p>
+                        ओलीको फोन नलागेपछि एमालेसँगको सल्लाहबिनै चुनावको मिति
+                        घोषणा
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="img-box">
+                  <img src="./assets/images/cat4.png" alt="cat" />
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-box">
+                    <div class="desc">
+                      <p>
+                        पूर्वमेयर साह र उपमेयर मिश्रलाई ७ लाख क्षतिपूर्ति भर्न
+                        उच्च अदालतको आदेश
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="img-box">
+                  <img src="./assets/images/cat5.png" alt="cat" />
+                </div>
+                <div class="info-wrapper">
+                  <div class="info-box">
+                    <div class="desc">
+                      <p>
+                        पूर्वमेयर साह र उपमेयर मिश्रलाई ७ लाख क्षतिपूर्ति भर्न
+                        उच्च अदालतको आदेश
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="category-wrapper other-wrapper flex-top-row-start"></div>
+          <div class="show-more-btn flex-css fpt-40">
+            <a href="#">सब देखौनुस</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- .category news container (sports) -->
+      <div class="category-news-container gap-container fpb-60">
+        <div class="second-category-news-box middle-content">
+          <div class="category-head flex-css">
+            <h1>खेलकुद</h1>
+          </div>
+          <div class="category-wrapper head-wrapper flex-top-row-start fmb-20">
+            <div class="box">
+              <div class="img-box">
+                <img src="./assets/images/sports1.png" alt="sport" />
+              </div>
+              <div class="info-wrapper">
+                <div class="info-box">
+                  <div class="desc">
+                    <p>
+                      ४३ जना डीएसपीको सरुवा, कहाँ-कहाँका प्रहरी प्रमुख फेरिए
+                      (सूचीसहित) काठमाडौं । नेपाल प्रहरीका ४३ जना प्रहरी नायव
+                      उपरीक्षक (डीएसपी) सरुवा भएका छन् ।
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="./assets/images/sports2.png" alt="sport" />
+              </div>
+              <div class="info-wrapper">
+                <div class="info-box">
+                  <div class="desc">
+                    <p>
+                      ​प्रेमले रंगिएको कृष्ण र लक्ष्मीको संसार, ४० वर्षअघि पोखरा
+                      आएका जोडीको कथा रिना थापा 8th June 2022
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="category-wrapper list-wrapper flex-top-row-start-wrap">
+            <div class="box">
+              <div class="img-box">
+                <img src="./assets/images/sports3.png" alt="sports" />
+              </div>
+              <div class="info-box">
+                <div class="desc">
+                  <p>
+                    न्यान्सीको ताइवान भ्रमणपछि आक्रामक बन्यो चीन, अमेरिकी सभामुख
+                    पेलोसीमाथि प्रतिबन्ध घोषणा
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="./assets/images/sports4.png" alt="sports" />
+              </div>
+              <div class="info-box">
+                <div class="desc">
+                  <p>
+                    ताइवान मामिलामा तनाब बढ्दै गएपछि चीनले रद्द गर्‍यो चीन-जापान
+                    विदेशमन्त्री स्तरीय वार्ता
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="./assets/images/sports5.png" alt="sports" />
+              </div>
+              <div class="info-box">
+                <div class="desc">
+                  <p>
+                    मन्दीको भयमा विश्व अर्थतन्त्र : पाकिस्तान र श्रीलंकापछि
+                    बंगलादेशमा कसरी मडारियो संकट?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="./assets/images/sports6.png" alt="sports" />
+              </div>
+              <div class="info-box">
+                <div class="desc">
+                  <p>
+                    अमेरिकाद्वारा मंकिपक्स भाइरसलाई जनस्वास्थ्य आपतकाल घोषणा
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="show-more-btn flex-css fpt-40">
+            <a href="#">सब देखौनुस</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- slider-container -->
+      <div class="slider-container gap-container fpb-60">
+        <div class="slider-box middle-content">
+          <div class="swiper news-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/images/swiper1.png" alt="swiper" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/swiper2.png" alt="swiper" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/swiper3.png" alt="swiper" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/swiper4.png" alt="swiper" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- video container  -->
+      <div class="video-container gap-container fpb-60">
+        <div class="video-box middle-content">
+          <div class="category-head flex-css">
+            <h1>भिडिओ</h1>
+          </div>
+          <div class="video-wrapper flex-top-row-start-wrap">
+            <div class="box">
+              <div class="img-box">
+                <img
+                  class="thumbnail-img"
+                  src="./assets/images/video1.png"
+                  alt="thumbnail"
+                />
+                <div class="icon-box flex-css">
+                  <img
+                    class="icon-img"
+                    src="./assets/images/play_icon.png"
+                    alt="img"
+                  />
+                </div>
+              </div>
+              <div class="info-wrapper">
+                <div class="info-box">
+                  <div class="desc">
+                    <p>
+                      We are looking for an enthusiastic intern who is eager to
+                      learn more about information systems by assisting the IT
+                      Department.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img
+                  class="thumbnail-img"
+                  src="./assets/images/video2.png"
+                  alt="thumbnail"
+                />
+                <div class="icon-box flex-css">
+                  <img
+                    class="icon-img"
+                    src="./assets/images/play_icon.png"
+                    alt="img"
+                  />
+                </div>
+              </div>
+              <div class="info-wrapper">
+                <div class="info-box">
+                  <div class="desc">
+                    <p>
+                      We are looking for an enthusiastic intern who is eager to
+                      learn more about information systems by assisting the IT
+                      Department.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img
+                  class="thumbnail-img"
+                  src="./assets/images/video3.png"
+                  alt="thumbnail"
+                />
+                <div class="icon-box flex-css">
+                  <img
+                    class="icon-img"
+                    src="./assets/images/play_icon.png"
+                    alt="img"
+                  />
+                </div>
+              </div>
+              <div class="info-wrapper">
+                <div class="info-box">
+                  <div class="desc">
+                    <p>
+                      We are looking for an enthusiastic intern who is eager to
+                      learn more about information systems by assisting the IT
+                      Department.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img
+                  class="thumbnail-img"
+                  src="./assets/images/video4.png"
+                  alt="thumbnail"
+                />
+                <div class="icon-box flex-css">
+                  <img
+                    class="icon-img"
+                    src="./assets/images/play_icon.png"
+                    alt="img"
+                  />
+                </div>
+              </div>
+              <div class="info-wrapper">
+                <div class="info-box">
+                  <div class="desc">
+                    <p>
+                      We are looking for an enthusiastic intern who is eager to
+                      learn more about information systems by assisting the IT
+                      Department.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="show-more-btn flex-css fpt-40">
+            <a href="#">सब देखौनुस</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer container  -->
+      <div class="footer-container gap-container fpb-60">
+        <div class="footer-box middle-content">
+          <div class="footer-link-box flex-top-row-start-wrap">
+            <div class="list">
+              <div class="title">
+                <h1>गृहपृष्ठ</h1>
+              </div>
+              <div class="link">
+                <a href="#">गृहपृष्ठ </a>
+                <a href="#">गृहपृष्ठ </a>
+                <a href="#">गृहपृष्ठ </a>
+                <a href="#">गृहपृष्ठ </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>राजनीति</h1>
+              </div>
+              <div class="link">
+                <a href="#">संसद् </a>
+                <a href="#">न्याय </a>
+                <a href="#">राजनीति </a>
+                <a href="#">संसद् </a>
+                <a href="#">न्याय </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>समाज</h1>
+              </div>
+              <div class="link">
+                <a href="#">सुरक्षा </a>
+                <a href="#">अपराध </a>
+                <a href="#">बेथिति </a>
+                <a href="#">भ्रष्टाचार </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>प्रदेश</h1>
+              </div>
+              <div class="link">
+                <a href="#">प्रदेश १ </a>
+                <a href="#">मधेस प्रदेश </a>
+                <a href="#">बागमती प्रदेश </a>
+                <a href="#">गण्डकी प्रदेश </a>
+                <a href="#">लुम्बिनी प्रदेश </a>
+                <a href="#">कर्णाली प्रदेश </a>
+                <a href="#">सुदूरपश्चिम प्रदेश </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>विचार</h1>
+              </div>
+              <div class="link">
+                <a href="#">अन्तर्वार्ता </a>
+                <a href="#">ब्लग </a>
+                <a href="#">लेख </a>
+                <a href="#">विश्लेषण </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>कला</h1>
+              </div>
+              <div class="link">
+                <a href="#">रंगमञ्च </a>
+                <a href="#">संगीत </a>
+                <a href="#">साहित्य </a>
+                <a href="#">सिनेमा </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>अर्थ</h1>
+              </div>
+              <div class="link">
+                <a href="#">अर्थ </a>
+                <a href="#">अर्थ </a>
+                <a href="#">अर्थ </a>
+                <a href="#">अर्थ </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>स्वास्थ्य</h1>
+              </div>
+              <div class="link">
+                <a href="#">स्वास्थ्य </a>
+                <a href="#">स्वास्थ्य </a>
+                <a href="#">स्वास्थ्य </a>
+                <a href="#">स्वास्थ्य </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>खेल</h1>
+              </div>
+              <div class="link">
+                <a href="#">खेल </a>
+                <a href="#">खेल </a>
+                <a href="#">खेल </a>
+                <a href="#">खेल </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>विविध</h1>
+              </div>
+              <div class="link">
+                <a href="#">विविध </a>
+                <a href="#">विविध </a>
+                <a href="#">विविध </a>
+                <a href="#">विविध </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-contact-box"></div>
+          <div class="footer-copyright-box flex-css-row-sb">
+            <div class="copy-text flex-css-row">
+              <p>Copyright © 2022 LAHACHAP Pvt. Ltd.</p>
+              <p>&nbsp;- All rights reserved</p>
+            </div>
+            <div class="link-text flex-css-row-wrap">
+              <a href="#">Terms of use</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Become a creator</a>
+              <a href="#">Advertise</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js  -->
     <script src="./assets/js/common.js"></script>
     <script src="./assets/js/home.js"></script>
   </body>
