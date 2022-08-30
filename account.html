@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo_img.png" />
+    <title>News Portal | Account</title>
+    <!-- sanjaya css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/sanjaya007/flex-library@2.0/dist/css/sanjaya.min.css"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/account.css" />
+    <!-- jquery  -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="portalBody" class="portal-body">
+    <div class="body-container" id="bodyContainer">
+      <!-- account container  -->
+      <div class="account-container gap-container">
+        <div class="account-box middle-content flex-top-row-start">
+          <div class="left-box fpr-40">
+            <div class="title-img flex-css fpt-40 fpb-20">
+              <img src="./assets/images/logo_img_small.png" alt="logo" />
+            </div>
+            <div class="tab-box flex-css-row fmb-20">
+              <div
+                class="tab-text tab-link login-tab active"
+                id="loginTab"
+                data-target="loginForm"
+                data-tab="loginTab"
+              >
+                <a href="#">लगइन</a>
+              </div>
+              <div
+                class="tab-text tab-link signup-tab"
+                id="signupTab"
+                data-target="signupForm"
+                data-tab="signupTab"
+              >
+                <a href="#">साइन अप </a>
+              </div>
+            </div>
+            <div class="form-box login-form" id="loginForm">
+              <div class="input-box">
+                <label for="email">ई-मेल <span>*</span></label>
+                <input type="email" />
+              </div>
+              <div class="input-box">
+                <label for="password">पासवर्ड <span>*</span></label>
+                <input type="password" />
+              </div>
+              <div class="remember-box flex-css-row-sb fmb-10">
+                <div class="check-input">
+                  <input type="checkbox" />
+                  <label for="checkbox">Remember me</label>
+                </div>
+                <div class="forgot-link">
+                  <a href="#">Forgot Password ?</a>
+                </div>
+              </div>
+              <div class="btn-box">
+                <button class="login-btn">लगइन</button>
+                <p>or</p>
+                <button class="facebook-login-btn">फेसबुकबाट लगइन</button>
+                <h1>लहछापमा नयाँ ?</h1>
+                <button
+                  class="signup-btn tab-link"
+                  data-target="signupForm"
+                  data-tab="signupTab"
+                >
+                  अब नि:शुल्क सम्मिलित हुनुहोस्
+                </button>
+              </div>
+            </div>
+            <div
+              class="form-box signup-form"
+              id="signupForm"
+              style="display: none"
+            >
+              <div class="input-box">
+                <label for="name">पूरा नाम <span>*</span></label>
+                <input type="text" />
+              </div>
+              <div class="input-box">
+                <label for="email">ई-मेल <span>*</span></label>
+                <input type="email" />
+              </div>
+              <div class="input-box">
+                <label for="phone">फोन णुम्बेर </label>
+                <input type="text" />
+              </div>
+              <div class="input-box">
+                <label for="password">पासवर्ड <span>*</span></label>
+                <input type="password" />
+              </div>
+              <div class="input-box">
+                <label for="password">कन्फर्म पासवर्ड <span>*</span></label>
+                <input type="password" />
+              </div>
+              <div class="btn-box">
+                <button class="signup-btn">साइन अप</button>
+                <h1>खाता छ ?</h1>
+                <button
+                  class="facebook-login-btn tab-link"
+                  data-target="loginForm"
+                  data-tab="loginTab"
+                >
+                  लगइन
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="right-box">
+            <div class="extra-box">
+              <div class="img-box">
+                <img src="./assets/images/logo_banner.png" alt="logo" />
+              </div>
+              <div class="list-box">
+                <div class="title fmb-8">
+                  <h1>हाम्रो समुदायमा सामेल हुनुहोस्:</h1>
+                </div>
+                <div class="list flex-css-row-start">
+                  <div class="check-box flex-css">
+                    <img src="./assets/images/tick.png" alt="tick" />
+                  </div>
+                  <div class="check-text">
+                    <p>जागिरका लागि आवेदन दिनुहोस्</p>
+                  </div>
+                </div>
+                <div class="list flex-css-row-start">
+                  <div class="check-box flex-css">
+                    <img src="./assets/images/tick.png" alt="tick" />
+                  </div>
+                  <div class="check-text">
+                    <p>जागिरका लागि आवेदन दिनुहोस्</p>
+                  </div>
+                </div>
+                <div class="list flex-css-row-start">
+                  <div class="check-box flex-css">
+                    <img src="./assets/images/tick.png" alt="tick" />
+                  </div>
+                  <div class="check-text">
+                    <p>जागिरका लागि आवेदन दिनुहोस्</p>
+                  </div>
+                </div>
+                <div class="list flex-css-row-start">
+                  <div class="check-box flex-css">
+                    <img src="./assets/images/tick.png" alt="tick" />
+                  </div>
+                  <div class="check-text">
+                    <p>जागिरका लागि आवेदन दिनुहोस्</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer small  -->
+      <div class="footer-container">
+        <div class="footer-box">
+          <div class="img-box flex-css fpy-20">
+            <img src="./assets/images/logo_img_small.png" alt="logo" />
+          </div>
+          <div class="small-box flex-css-row fpy-20">
+            <a href="#">Terms of use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Become a creator </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- custom js  -->
+    <script src="./assets/js/common.js"></script>
+    <script src="./assets/js/account.js"></script>
+  </body>
+</html>

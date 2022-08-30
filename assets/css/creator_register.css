@@ -1,0 +1,109 @@
+.body-container {
+  background-color: #ffffff;
+}
+
+.creator-container {
+  min-height: calc(100vh - 206px);
+}
+
+.creator-container .creator-box {
+  width: 600px;
+}
+
+.creator-container .creator-box .title-text {
+  position: relative;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.creator-container .creator-box .title-text::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  left: calc(50% - 20%);
+  bottom: 0;
+  height: 4px;
+  background-color: #e80000;
+}
+
+.creator-container .creator-box .title-text h1 {
+  text-align: center;
+  font-size: 22px;
+  color: #e80000;
+}
+
+.creator-container .creator-box .form-box .input-box {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.creator-container .creator-box .form-box .input-box label {
+  display: block;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.creator-container .creator-box .form-box .input-box label span {
+  color: #ff0000;
+}
+
+.creator-container .creator-box .form-box .input-box input {
+  border: none;
+  outline: none;
+  border: 1px solid #efefef;
+  background-color: #efefef;
+  padding: 10px 14px;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.creator-container .creator-box .btn-box button {
+  border: none;
+  outline: none;
+  padding: 14px 0;
+  width: 100%;
+  color: #fef2f2;
+  font-weight: 700;
+  background-color: #af0d10;
+}
+
+.footer-container .footer-box .policy-box {
+  background-color: #af0d10;
+}
+
+.footer-container .footer-box .policy-box a {
+  color: #fef2f2;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* responsive  */
+@media (max-width: 767px) {
+  .creator-container .creator-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .creator-container .creator-box .form-box .input-wrapper {
+    flex-direction: column;
+  }
+  .creator-container .creator-box .form-box .input-box {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-container .footer-box .policy-box a {
+    font-size: 12px;
+  }
+}

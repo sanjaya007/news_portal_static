@@ -1,0 +1,32 @@
+.body-container {
+  background-color: #ffffff;
+}
+
+.privacy-policy-container {
+  min-height: calc(100vh - 206px);
+}
+
+.privacy-policy-container .privacy-policy-box .title-text h1 {
+  text-align: center;
+  font-size: 22px;
+  color: #e80000;
+}
+
+.footer-container .footer-box .policy-box {
+  background-color: #af0d10;
+}
+
+.footer-container .footer-box .policy-box a {
+  color: #fef2f2;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* responsive  */
+@media (max-width: 400px) {
+  .footer-container .footer-box .policy-box a {
+    font-size: 12px;
+  }
+}

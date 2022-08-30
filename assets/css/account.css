@@ -1,0 +1,209 @@
+.body-container {
+  background-color: #ffffff;
+}
+
+.account-container {
+  min-height: calc(100vh - 206px);
+}
+
+.account-container .account-box .left-box {
+  width: 50%;
+}
+
+.account-container .account-box .right-box {
+  width: 50%;
+}
+
+.account-container .account-box .left-box .tab-box {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.account-container .account-box .left-box .tab-box .tab-text {
+  width: 50%;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+
+.account-container .account-box .left-box .tab-box .tab-text a {
+  display: block;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.account-container .account-box .left-box .tab-box .tab-text.active {
+  border-color: #000000;
+}
+
+.account-container .account-box .left-box .tab-box .tab-text.active a {
+  color: #000000;
+}
+
+.account-container .account-box .left-box .form-box .input-box {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.account-container .account-box .left-box .form-box .input-box label {
+  display: block;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.account-container .account-box .left-box .form-box .input-box label span {
+  color: #b62222;
+}
+
+.account-container .account-box .left-box .form-box .input-box input {
+  border: none;
+  outline: none;
+  border: 1px solid #d7d7d7;
+  padding: 10px 14px;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.account-container .account-box .left-box .remember-box .check-input label {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.account-container .account-box .left-box .remember-box .forgot-link a {
+  font-size: 14px;
+  color: #a7a7a7;
+}
+
+.account-container .account-box .left-box .btn-box button {
+  border: none;
+  outline: none;
+  padding: 14px 0;
+  width: 100%;
+  color: #fef2f2;
+  font-weight: 700;
+}
+
+.account-container .account-box .left-box .btn-box p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.account-container .account-box .left-box .btn-box h1 {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.account-container .account-box .left-box .btn-box .login-btn {
+  background-color: #af0d10;
+}
+
+.account-container .account-box .left-box .btn-box .facebook-login-btn {
+  background-color: #3b5998;
+}
+
+.account-container .account-box .left-box .btn-box .signup-btn {
+  background-color: #832424;
+}
+
+.account-container .account-box .right-box {
+  background-color: #f3f3f3;
+}
+
+.account-container .account-box .right-box .extra-box .img-box img {
+  width: 100%;
+}
+
+.account-container .account-box .right-box .extra-box .list-box {
+  min-height: 344px;
+  padding: 40px 30px 30px 30px;
+}
+
+.account-container .account-box .right-box .extra-box .list-box .title h1 {
+  color: #af0d10;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.account-container .account-box .right-box .extra-box .list-box .list {
+  margin-bottom: 6px;
+}
+
+.account-container
+  .account-box
+  .right-box
+  .extra-box
+  .list-box
+  .list
+  .check-box {
+  min-width: 20px;
+  max-width: 20px;
+  min-height: 20px;
+  max-height: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: #d9d9d9;
+  margin-right: 14px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.account-container
+  .account-box
+  .right-box
+  .extra-box
+  .list-box
+  .list
+  .check-text
+  p {
+  font-size: 14px;
+  color: #480001;
+}
+
+/* responsive  */
+@media (max-width: 1023px) {
+  .account-container .account-box .left-box {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 950px) {
+  .account-container .account-box .left-box {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .account-container .account-box .left-box {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .account-container .account-box .left-box {
+    padding-right: 0;
+    width: 100%;
+  }
+  .account-container .account-box .right-box {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .account-container .account-box .left-box .tab-box .tab-text a {
+    font-size: 20px;
+  }
+}
