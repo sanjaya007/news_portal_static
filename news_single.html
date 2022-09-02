@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo_img.png" />
+    <title>News Portal | News Page</title>
+    <!-- sanjaya css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/sanjaya007/flex-library@2.0/dist/css/sanjaya.min.css"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/news_single.css" />
+    <!-- jquery  -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="portalBody" class="portal-body">
+    <div class="side-modal">
+      <!-- mobile nav  -->
+      <div class="mobile-nav blue-nav" id="linkNav">
+        <div class="nav-box">
+          <div class="title flex-css fmb-30">
+            <a href="#" class="link-text">Lahachhap</a>
+          </div>
+          <div class="link-wrapper fmb-50">
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> गृहपृष्ठ </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text">गृहपृष्ठ</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">गृहपृष्ठ</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">गृहपृष्ठ</a>
+                </div>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> राजनीति </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text">राजनीति</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">राजनीति</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">राजनीति</a>
+                </div>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> स्वास्थ्य </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text">स्वास्थ्य</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">स्वास्थ्य</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text">स्वास्थ्य</a>
+                </div>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> अर्थ </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text"> अर्थ</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text"> अर्थ</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text"> अर्थ</a>
+                </div>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="link flex-css-row-sb">
+                <a href="#" class="link-text"> समाज </a>
+                <div
+                  class="plus-icon mobile-plus-icon flex-bottom-column"
+                  data-status="plus"
+                >
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+              <div class="drop-box mobile-drop-box">
+                <div class="link">
+                  <a href="#" class="link-text"> समाज</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text"> समाज</a>
+                </div>
+                <div class="link">
+                  <a href="#" class="link-text"> समाज</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="creator-text">
+            <a href="#">Become a creator</a>
+          </div>
+          <div class="close-icon mobile-close-icon flex-css">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-nav red-nav" id="postNav">
+        <div class="nav-box">
+          <div class="title flex-css fmb-30">
+            <a href="#" class="link-text">Lahachhap</a>
+          </div>
+
+          <div class="post-text fmb-20">
+            <div class="title">
+              <p>नवीनतम पोष्ट</p>
+            </div>
+          </div>
+
+          <div class="link-wrapper">
+            <div class="link-box">
+              <div class="link flex-css-row-start">
+                <img src="./assets/images/stat_arrow_large.png" alt="arrow" />
+                <a href="#" class="link-text"> नवीनतम पोष्ट </a>
+              </div>
+              <div class="link flex-css-row-start">
+                <img src="./assets/images/stat_arrow_large.png" alt="arrow" />
+                <a href="#" class="link-text"> नवीनतम पोष्ट </a>
+              </div>
+              <div class="link flex-css-row-start">
+                <img src="./assets/images/stat_arrow_large.png" alt="arrow" />
+                <a href="#" class="link-text"> नवीनतम पोष्ट </a>
+              </div>
+              <div class="link flex-css-row-start">
+                <img src="./assets/images/stat_arrow_large.png" alt="arrow" />
+                <a href="#" class="link-text"> नवीनतम पोष्ट </a>
+              </div>
+            </div>
+          </div>
+          <div class="close-icon mobile-close-icon flex-css">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body-container" id="bodyContainer">
+      <!-- .head container  -->
+      <div class="head-container gap-container">
+        <div class="head-box middle-content flex-css-row-sb fpy-10 fpx-10">
+          <div class="logo-img">
+            <img src="./assets/images/logo_img.png" alt="logo" />
+          </div>
+          <div class="logo-text">
+            <img src="./assets/images/logo_letter.png" alt="logo" />
+          </div>
+          <div class="info-text flex-css-row">
+            <p>खोज्नुहोस</p>
+            <div class="border-line"></div>
+            <p>२१ साउन २०७९</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- nav container  -->
+      <div class="nav-container">
+        <div class="nav-box gap-container link-nav">
+          <div class="box middle-content flex-css-row-sb">
+            <div class="nav-wrapper flex-css-row-start">
+              <div class="title fmr-70">
+                <a href="#">Become a creator</a>
+              </div>
+              <div class="link-wrapper flex-css-row-start desktop-link">
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#">गृहपृष्ठ</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#">गृहपृष्ठ</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#">गृहपृष्ठ</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#">गृहपृष्ठ</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#">राजनीति</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#">राजनीति</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#">राजनीति</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#">राजनीति</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#"> स्वास्थ्य</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#"> स्वास्थ्य</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> स्वास्थ्य</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> स्वास्थ्य</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#"> अर्थ</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#"> अर्थ</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> अर्थ</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> अर्थ</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="link-box">
+                  <div class="link flex-css-row-start">
+                    <a href="#"> समाज</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="drop-box">
+                    <div class="drop-link">
+                      <a href="#"> समाज</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> समाज</a>
+                    </div>
+                    <div class="drop-link">
+                      <a href="#"> समाज</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-box flex-bottom-column" data-target="linkNav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="nav-box gap-container post-nav">
+          <div class="box middle-content flex-css-row-sb">
+            <div class="nav-wrapper flex-css-row-start">
+              <div class="title fmr-20">
+                <p>नवीनतम पोष्ट</p>
+              </div>
+              <div class="list-box flex-css-row-start desktop-link">
+                <div class="list">
+                  <img src="./assets/images/stat_arrow.png" alt="arrow" />
+                  <a href="#">नवीनतम पोष्ट</a>
+                </div>
+                <div class="list">
+                  <img src="./assets/images/stat_arrow.png" alt="arrow" />
+                  <a href="#">नवीनतम पोष्ट</a>
+                </div>
+                <div class="list">
+                  <img src="./assets/images/stat_arrow.png" alt="arrow" />
+                  <a href="#">नवीनतम पोष्ट</a>
+                </div>
+                <div class="list">
+                  <img src="./assets/images/stat_arrow.png" alt="arrow" />
+                  <a href="#">नवीनतम पोष्ट</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-box flex-bottom-column" data-target="postNav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- marquee box -->
+      <div class="marquee-container gap-container">
+        <div class="marquee-box middle-content">
+          <marquee behavior="" direction="">
+            <div class="box flex-css-row-start">
+              <div class="title">
+                <h1>किन चुक्यो युवा फुटबल टिम ?</h1>
+              </div>
+              <div class="info">
+                <p>
+                  सरकारी सम्पत्तिमा सीजीको गिद्दे नजर : न यसरी हडपियो सार्वजनिक
+                  जग्गा
+                </p>
+              </div>
+            </div>
+          </marquee>
+        </div>
+      </div>
+
+      <!-- news container  -->
+      <div class="news-container gap-container fpb-60">
+        <div class="news-box middle-content flex-top-row-start">
+          <div class="description-box fpr-10">
+            <div class="box">
+              <div class="img-box">
+                <img src="./assets/images/hot_news_banner.png" alt="news" />
+              </div>
+              <div class="info-wrapper">
+                <div class="info-box">
+                  <div class="title">
+                    <h1>
+                      कोशी नदीको जलसतह सतर्कता आसपास, यी जिल्लाका स-साना नदीमा
+                      हुन सक्छ आकस्मिक बहाव
+                    </h1>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      काठमाडौं : कोशी नदीको जलसतह सतर्कता आसपास नै भएको बाढी
+                      पूर्वानुमान महाशाखाले जनाएको छ। आज र भोलि नदीको जलसतह केही
+                      घट्ने भए पनि सतर्कता आपासनै हुने महाशाखाले जनाएको छ।
+                      <br />
+                      <br />
+                      जलसतह कुनै पनि बेला बढ्न सक्ने र बाढी आउन सक्ने भन्दै
+                      नदीको तटीय क्षेत्रमा सतर्कता अपनाउन आग्रह गरिएको छ।
+
+                      <img src="./assets/images/info_img.png" alt="info" />
+
+                      सक्छ आकस्मिक बहाव काठमाडौं : कोशी नदीको जलसतह सतर्कता
+                      आसपास नै भएको बाढी पूर्वानुमान महाशाखाले जनाएको छ। आज र
+                      भोलि नदीको जलसतह केही घट्ने भए पनि सतर्कता आपासनै हुने
+                      महाशाखाले जनाएको छ। जलसतह कुनै पनि बेला बढ्न सक्ने र बाढी
+                      आउन सक्ने भन्दै नदीको तटीय क्षेत्रमा सतर्कता अपनाउन आग्रह
+                      गरिएको छ। <br />
+                      <br />
+
+                      सक्छ आकस्मिक बहाव काठमाडौं : कोशी नदीको जलसतह सतर्कता
+                      आसपास नै भएको बाढी पूर्वानुमान महाशाखाले जनाएको छ। आज र
+                      भोलि नदीको जलसतह केही घट्ने भए पनि सतर्कता आपासनै हुने
+                      महाशाखाले जनाएको छ। जलसतह कुनै पनि बेला बढ्न सक्ने र बाढी
+                      आउन सक्ने भन्दै नदीको तटीय क्षेत्रमा सतर्कता अपनाउन आग्रह
+                      गरिएको छ। <br />
+                      <br />
+
+                      सक्छ आकस्मिक बहाव काठमाडौं : कोशी नदीको जलसतह सतर्कता
+                      आसपास नै भएको बाढी पूर्वानुमान महाशाखाले जनाएको छ। आज र
+                      भोलि नदीको जलसतह केही घट्ने भए पनि सतर्कता आपासनै हुने
+                      महाशाखाले जनाएको छ। जलसतह कुनै पनि बेला बढ्न सक्ने र बाढी
+                      आउन सक्ने भन्दै नदीको तटीय क्षेत्रमा सतर्कता अपनाउन आग्रह
+                      गरिएको छ।
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-box">
+              <div class="title fmb-20">
+                <h1>कमेन्ट गर्नुहोस्</h1>
+                <p>तपाईको ईमेल गोप्य राखिनेछ</p>
+              </div>
+              <div class="input-wrapper flex-css-row-sb">
+                <div class="input-box fmr-10">
+                  <label for="name">नाम <span>*</span></label>
+                  <input type="text" />
+                </div>
+                <div class="input-box fml-10">
+                  <label for="email">इमेल <span>*</span></label>
+                  <input type="email" />
+                </div>
+              </div>
+              <div class="input-box">
+                <label for="comment">प्रतिक्रिया <span>*</span> </label>
+                <textarea cols="30" rows="6 "></textarea>
+              </div>
+              <div class="btn-box">
+                <button>पोष्ट गर्नुहोस्</button>
+              </div>
+            </div>
+          </div>
+          <div class="trending-box">
+            <div class="box">
+              <div class="title fmb-10">
+                <h1>Trending</h1>
+              </div>
+              <div class="list-box">
+                <div class="list flex-top-row-start">
+                  <div class="img-box">
+                    <img src="./assets/images/hot_news.png" alt="hotnews" />
+                  </div>
+                  <div class="info-box">
+                    <div class="info-text">
+                      <p>
+                        दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                        कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                      </p>
+                    </div>
+                    <div class="link-text">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list flex-top-row-start">
+                  <div class="img-box">
+                    <img src="./assets/images/hot_news.png" alt="hotnews" />
+                  </div>
+                  <div class="info-box">
+                    <div class="info-text">
+                      <p>
+                        दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                        कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                      </p>
+                    </div>
+                    <div class="link-text">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list flex-top-row-start">
+                  <div class="img-box">
+                    <img src="./assets/images/hot_news.png" alt="hotnews" />
+                  </div>
+                  <div class="info-box">
+                    <div class="info-text">
+                      <p>
+                        दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                        कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                      </p>
+                    </div>
+                    <div class="link-text">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list flex-top-row-start">
+                  <div class="img-box">
+                    <img src="./assets/images/hot_news.png" alt="hotnews" />
+                  </div>
+                  <div class="info-box">
+                    <div class="info-text">
+                      <p>
+                        दक्षिण कोरियामा अमेरिकी सभामुख पेलोसी : स्वागतका लागि
+                        कोही गएनन्, पछाडिको ढोकाबाट होटल प्रवेश...
+                      </p>
+                    </div>
+                    <div class="link-text">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer container  -->
+      <div class="footer-container gap-container">
+        <div class="footer-box middle-content">
+          <div class="footer-link-box flex-top-row-start-wrap fpb-40">
+            <div class="list">
+              <div class="title">
+                <h1>गृहपृष्ठ</h1>
+              </div>
+              <div class="link">
+                <a href="#">गृहपृष्ठ </a>
+                <a href="#">गृहपृष्ठ </a>
+                <a href="#">गृहपृष्ठ </a>
+                <a href="#">गृहपृष्ठ </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>राजनीति</h1>
+              </div>
+              <div class="link">
+                <a href="#">संसद् </a>
+                <a href="#">न्याय </a>
+                <a href="#">राजनीति </a>
+                <a href="#">संसद् </a>
+                <a href="#">न्याय </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>समाज</h1>
+              </div>
+              <div class="link">
+                <a href="#">सुरक्षा </a>
+                <a href="#">अपराध </a>
+                <a href="#">बेथिति </a>
+                <a href="#">भ्रष्टाचार </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>प्रदेश</h1>
+              </div>
+              <div class="link">
+                <a href="#">प्रदेश १ </a>
+                <a href="#">मधेस प्रदेश </a>
+                <a href="#">बागमती प्रदेश </a>
+                <a href="#">गण्डकी प्रदेश </a>
+                <a href="#">लुम्बिनी प्रदेश </a>
+                <a href="#">कर्णाली प्रदेश </a>
+                <a href="#">सुदूरपश्चिम प्रदेश </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>विचार</h1>
+              </div>
+              <div class="link">
+                <a href="#">अन्तर्वार्ता </a>
+                <a href="#">ब्लग </a>
+                <a href="#">लेख </a>
+                <a href="#">विश्लेषण </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>कला</h1>
+              </div>
+              <div class="link">
+                <a href="#">रंगमञ्च </a>
+                <a href="#">संगीत </a>
+                <a href="#">साहित्य </a>
+                <a href="#">सिनेमा </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>अर्थ</h1>
+              </div>
+              <div class="link">
+                <a href="#">अर्थ </a>
+                <a href="#">अर्थ </a>
+                <a href="#">अर्थ </a>
+                <a href="#">अर्थ </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>स्वास्थ्य</h1>
+              </div>
+              <div class="link">
+                <a href="#">स्वास्थ्य </a>
+                <a href="#">स्वास्थ्य </a>
+                <a href="#">स्वास्थ्य </a>
+                <a href="#">स्वास्थ्य </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>खेल</h1>
+              </div>
+              <div class="link">
+                <a href="#">खेल </a>
+                <a href="#">खेल </a>
+                <a href="#">खेल </a>
+                <a href="#">खेल </a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="title">
+                <h1>विविध</h1>
+              </div>
+              <div class="link">
+                <a href="#">विविध </a>
+                <a href="#">विविध </a>
+                <a href="#">विविध </a>
+                <a href="#">विविध </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-contact-box flex-top-row-sb">
+            <div class="box-wrapper list-wrapper flex-top-row-sb">
+              <div class="box">
+                <div class="title">
+                  <h1>अध्यक्ष तथा प्रबन्ध निर्देशक</h1>
+                </div>
+                <div class="list">
+                  <p><span>कार्यकारी निर्देशक:</span><span> ????</span></p>
+                  <p><span>सम्पादक:</span><span> ????</span></p>
+                  <p>
+                    <span>संचार रजिस्ट्रार दर्ता नं.:</span><span> ????</span>
+                  </p>
+                  <p>बाल्यकालीन दशैं</p>
+                  <p>बेइजिङ डायरी</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="title">
+                  <h1>स्पेसल कोवेरगे</h1>
+                </div>
+                <div class="list">
+                  <p>इक्क कृक्केट वोर्ल्ड कप २०२२</p>
+                  <p>फिफा वोर्ल्ड कप २०२२</p>
+                  <p>लोकेल लेवेल ईलेक्टिओण २०८०</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="title">
+                  <h1>लहछप & टेअ</h1>
+                </div>
+                <div class="list">
+                  <p>पृवक्री पोलिक्री</p>
+                  <p>बेकोमे अ क्रेअतोर</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-wrapper contact-wrapper flex-css-row-end">
+              <div class="logo-box fpr-40">
+                <img src="./assets/images/logo_footer.png" alt="logo" />
+              </div>
+              <div class="box info-box">
+                <div class="title">
+                  <h1>सम्पर्क</h1>
+                </div>
+                <div class="list">
+                  <p>विज्ञापनका लागि सम्पर्क</p>
+                  <p>Lahachap.business@gmail.com</p>
+                  <p>Email: <span>news@lahachap.com</span></p>
+                  <p>Address: <span>Naxal, Kathmandu, Nepal</span></p>
+                </div>
+                <div class="social-icon flex-css-row-start">
+                  <a href="#" target="_blank"
+                    ><img src="./assets/images/facebook_icon.png" alt="icon"
+                  /></a>
+                  <a href="#" target="_blank"
+                    ><img src="./assets/images/twitter_icon.png" alt="icon"
+                  /></a>
+                  <a href="#" target="_blank"
+                    ><img src="./assets/images/whatsapp_icon.png" alt="icon"
+                  /></a>
+                  <a href="#" target="_blank"
+                    ><img src="./assets/images/instagram_icon.png" alt="icon"
+                  /></a>
+                  <a href="#" target="_blank"
+                    ><img src="./assets/images/gmail_icon.png" alt="icon"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer-copyright  -->
+      <div class="footer-container full-footer">
+        <div class="footer-box middle-content">
+          <div class="footer-copyright-box flex-css-row-sb">
+            <div class="copy-text flex-css-row">
+              <p>Copyright © 2022 LAHACHAP Pvt. Ltd.</p>
+              <p>&nbsp;- All rights reserved</p>
+            </div>
+            <div class="link-text flex-css-row-wrap">
+              <a href="#">Terms of use</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Become a creator</a>
+              <a href="#">Advertise</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js  -->
+    <script src="./assets/js/navbar.js"></script>
+  </body>
+</html>

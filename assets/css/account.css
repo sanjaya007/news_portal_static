@@ -56,7 +56,7 @@
 }
 
 .account-container .account-box .left-box .form-box .input-box label span {
-  color: #b62222;
+  color: #ff0000;
 }
 
 .account-container .account-box .left-box .form-box .input-box input {
@@ -91,6 +91,7 @@
   width: 100%;
   color: #fef2f2;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .account-container .account-box .left-box .btn-box p {
