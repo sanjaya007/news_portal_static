@@ -44,38 +44,78 @@
           <div class="form-box">
             <div class="input-box">
               <label for="name">Full Name <span>*</span></label>
-              <input type="text" />
+              <input
+                type="text"
+                id="fullName"
+                class="creator-input"
+                data-input=""
+              />
             </div>
             <div class="input-box">
               <label for="date">Date of Birth <span>*</span></label>
-              <input type="date" />
+              <input
+                type="date"
+                id="dateOfBirth"
+                class="creator-input"
+                data-input=""
+              />
             </div>
             <div class="input-box">
               <label for="email">Email <span>*</span></label>
-              <input type="email" />
+              <input
+                type="email"
+                id="emailAddress"
+                class="creator-input"
+                data-input=""
+              />
             </div>
             <div class="input-box">
               <label for="contact">Mobile Number <span>*</span></label>
-              <input type="text" />
+              <input
+                type="text"
+                id="mobileNumber"
+                class="creator-input"
+                data-input=""
+              />
             </div>
             <div class="input-wrapper flex-css-row-sb">
               <div class="input-box fmr-10">
                 <label for="district">District <span>*</span></label>
-                <input type="text" />
+                <input
+                  type="text"
+                  id="district"
+                  class="creator-input"
+                  data-input=""
+                />
               </div>
               <div class="input-box fml-10">
                 <label for="contact">Municipality/VDC <span>*</span></label>
-                <input type="text" />
+                <input
+                  type="text"
+                  id="municipality"
+                  class="creator-input"
+                  data-input=""
+                />
               </div>
             </div>
             <div class="input-wrapper flex-css-row-sb">
               <div class="input-box fmr-10">
                 <label for="city">City <span>*</span></label>
-                <input type="text" />
+                <input
+                  type="text"
+                  id="city"
+                  class="creator-input"
+                  data-input=""
+                />
               </div>
               <div class="input-box fml-10">
                 <label for="ward">Ward Number <span>*</span></label>
-                <input type="text" />
+                <input
+                  type="text"
+                  id="wardNumber"
+                  class="creator-input"
+                  data-input=""
+                />
               </div>
             </div>
             <div class="input-title fmb-16">
@@ -83,37 +123,90 @@
             </div>
             <div class="input-box fmr-10">
               <label for="id">ID <span>*</span></label>
-              <input type="text" />
+              <input
+                type="text"
+                id="idType"
+                class="creator-input"
+                data-input=""
+              />
             </div>
             <div class="input-box fmr-10">
               <label for="id">ID Number <span>*</span></label>
-              <input type="text" />
+              <input
+                type="text"
+                id="idNumber"
+                class="creator-input"
+                data-input=""
+              />
             </div>
             <div class="input-wrapper flex-css-row-sb">
               <div class="input-box fmr-10">
                 <label for="district">Issued District <span>*</span></label>
-                <input type="text" />
+                <input
+                  type="text"
+                  id="issuedDistrict"
+                  class="creator-input"
+                  data-input=""
+                />
               </div>
               <div class="input-box fml-10">
                 <label for="date">Issued Date <span>*</span></label>
-                <input type="date" />
+                <input
+                  type="date"
+                  id="issuedDate"
+                  class="creator-input"
+                  data-input=""
+                />
               </div>
             </div>
             <div class="input-box">
               <label for="name">Father's Name <span>*</span></label>
-              <input type="text" />
+              <input
+                type="text"
+                id="fatherName"
+                class="creator-input"
+                data-input=""
+              />
             </div>
             <div class="input-box">
               <label for="name">Mother's Name <span>*</span></label>
-              <input type="text" />
+              <input
+                type="text"
+                id="motherName"
+                class="creator-input"
+                data-input=""
+              />
             </div>
             <div class="input-box">
               <label for="name">Grandfather's Name <span>*</span></label>
-              <input type="text" />
+              <input
+                type="text"
+                id="grandfatherName"
+                class="creator-input"
+                data-input=""
+              />
+            </div>
+            <div class="input-box">
+              <label for="file">Document Upload <span>*</span></label>
+              <div class="file-input">
+                <input type="file" id="documentUpload" multiple />
+                <div class="input-duplicate flex-css">
+                  <img src="/assets/images/gallery.png" alt="gallery" />
+                  <p>Upload Files</p>
+                </div>
+              </div>
             </div>
 
+            <!-- document preview  -->
+            <div
+              class="preview-box flex-css-row-start-wrap"
+              id="previewBox"
+            ></div>
+
             <div class="btn-box fpt-10">
-              <button class="sumbit-btn">Submit</button>
+              <a href="#" class="sumbit-btn" id="registerCreatorBtn">Submit</a>
+              <h1>Already have account ?</h1>
+              <a href="./creator_login.html" class="login-btn">Login</a>
             </div>
           </div>
         </div>
