@@ -41,6 +41,10 @@ body {
   height: 74px;
 }
 
+.head-container .head-box .logo-text img {
+  height: 74px;
+}
+
 .head-container .head-box .info-text p {
   font-size: 14px;
   font-weight: 700;
